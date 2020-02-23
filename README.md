@@ -11,7 +11,7 @@ Since there is no more support for these units, obtaining keycode signatures is 
 
 This repo is aimed at 2 things, creating a password of the day (POTD) utility and a keycode signature utility.  Both of these are descrbed below.
 
-**Password of the Day**
+## Password of the Day
 The Password of the Day (POTD) comes in handy if you ever forget the password to your BCM.  The usual login process involves a username (typically nnadmin) and a password.  Whilst there is one procedure which can be used to reset a system, it usually results in deleting all programming and resetting the unit to factory defaults which is not great.
 
 The POTD was a way for Nortel to allow users to log in to their units using a temporary password along with the login "nnsupport".  Once logged in, the user can then change their password and regain normal access.
@@ -26,7 +26,7 @@ Using these three pieces of information, along with static phrases, concatenatio
 *I am working on getting some initial code out soon for testing so please stay tuned! * 
 
 
-**Keycode Signature**
+## Keycode Signature
 The keycode signature is required when making hardware or software changes to the BCM, via its user interface which is called Element Manager.  
 
 For example, if you wanted to increase the number of extensions your unit provides from 8 to 12, you would need to make those changes within Element Manager but would also need to update the unit's keycode signature to reflect that change.  
