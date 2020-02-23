@@ -1,4 +1,4 @@
-# Nortel BCM
+# Nortel BCM Tools
 Support tools to help fix/maintain the Nortel Business Communication Manager (BCM).
 
 The BCM is small-to-medium-sized business PBX, originally manufactured by Northern Telecom (Nortel).  A few years ago Nortel went out of business and was taken over by Avaya.  Avaya took over the entire Nortel portfolio which included the BCM range.  If you are here, you probably are already ware of what the BCM is and how it works, so I am not going into that much detail.
