@@ -9,9 +9,6 @@ For telephone enthusiasts like myself who happen to have these units at home, th
 
 Since there is no more support for these units, obtaining a keycode signature is now impossible.  These signatures are also required when you want to make a change to your unit, for example, if you want to add more voicemail boxes or increase the number of extensions from 4 to 8, for example.
 
-This repo is aimed at acheiving 2 things: 
-~~1. Creating a password of the day (POTD) utility.~~ Done!
-2. Creating a keycode signature utility.  
 
 ## Password of the Day
 The Password of the Day (POTD) comes in handy if you ever forget the password to your BCM.  The usual login process involves a username (typically nnadmin) and a password.  Whilst there is a procedure which can be used to reset a system, it usually results in deleting all programming and resetting the unit to factory defaults which is not great.
@@ -29,6 +26,8 @@ Using this information, along with a static phrase, SHA1 hashing and concatenati
 
 
 ## Keycode Signature
+*This project is in progress*
+
 The keycode signature is required when making hardware or software changes to the BCM, via its user interface which is called Element Manager.  
 
 For example, if you wanted to increase the number of extensions your unit provides from 8 to 12, you would need to make those changes within Element Manager but would also need to update the unit's keycode signature to reflect that change. 
