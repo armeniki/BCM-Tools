@@ -18,14 +18,14 @@ The Password of the Day (POTD) comes in handy if you ever forget the password to
 
 The POTD was a way for Nortel to allow users to log in to their units using a temporary password along with the login "nnsupport".  Once logged in, the user can then change their password and regain normal access.
 
-In order to generate a POTD, 3 things are required:
+In order to generate a POTD, 4 things are required:
 1. The unit's System ID (which is the same as its LAN MAC)
 2. The current time/date which can be viewed from any connected telephone set
-3. The challenge phrase which is stored on the unit - these are normally not changed by users and were set to "trust no one" by default.
+3. The date format used by the system
+4. The challenge phrase which is stored on the unit - these are normally not changed by users and were set to "trust no one" by default.
 
-Using these three pieces of information, along with static phrases, concatenation and hashing, a POTD can be generated.
+Using this information, along with a static phrase, SHA1 hashing and concatenation, the 16-digit POTD is generated.
 
-*I am working on getting some initial code out soon for testing so please stay tuned! * 
 
 
 ## Keycode Signature
