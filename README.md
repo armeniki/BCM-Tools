@@ -31,8 +31,4 @@ Using this information, along with a static phrase, SHA1 hashing and concatenati
 ## Keycode Signature
 The keycode signature is required when making hardware or software changes to the BCM, via its user interface which is called Element Manager.  
 
-For example, if you wanted to increase the number of extensions your unit provides from 8 to 12, you would need to make those changes within Element Manager but would also need to update the unit's keycode signature to reflect that change.  
-
-Nortel provided different "releases" of software for these units: R1 to R6.  For units that 
-
-
+For example, if you wanted to increase the number of extensions your unit provides from 8 to 12, you would need to make those changes within Element Manager but would also need to update the unit's keycode signature to reflect that change. 
