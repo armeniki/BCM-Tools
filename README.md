@@ -10,7 +10,7 @@ For telephone enthusiasts like myself who happen to have these units at home, th
 Since there is no more support for these units, obtaining a keycode signature is now impossible.  These signatures are also required when you want to make a change to your unit, for example, if you want to add more voicemail boxes or increase the number of extensions from 4 to 8, for example.
 
 This repo is aimed at acheiving 2 things: 
-1. Creating a password of the day (POTD) utility
+~~1. Creating a password of the day (POTD) utility.~~ Done!
 2. Creating a keycode signature utility.  
 
 ## Password of the Day
@@ -33,6 +33,6 @@ The keycode signature is required when making hardware or software changes to th
 
 For example, if you wanted to increase the number of extensions your unit provides from 8 to 12, you would need to make those changes within Element Manager but would also need to update the unit's keycode signature to reflect that change.  
 
-Nortel manufactured different "releases" of this units: R1 to R6.  For units that are R1, R2 and R3, keycode signature generation is again fairly straightforward, using hashing and concatenation simlilar to the POTD method.  However, for releases R5 and R6, Nortel decided to change to a PKI (public key infrastructure) style, which requires a bit more work.
+Nortel provided different "releases" of software for these units: R1 to R6.  For units that 
 
 
