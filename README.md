@@ -19,11 +19,11 @@ The POTD was originally designed to allow support personnel to log in to these u
 ## Keycode Signature
 *This project is in progress and incomplete.*
 
-The keycode signature is a 16-digit number which is required when making hardware or software changes to the unit.  Usually these changes are made through Element Manager, its graphical user interface.
+The keycode signature is a 24-digit number which is required when making hardware or software changes to the unit.  Usually these changes are made through Element Manager, its graphical user interface.
 
 For example, if you wanted to increase the number of extensions your unit provides from 8 to 12, you would need to make those changes within Element Manager but would also need to update the unit's keycode signature to reflect that change. 
 
-Once a new keycode is entered after a feature is changed or hardware added, the unit verifies the 16-digit number.  This is done through an executable file residing internally named *cfsserver*.  This executable has a few different uses, but its main purpose to simply verify the number entered is correct.  If it is, then it will return a message along the lines of *The file (/nn/etc/xxxxxxx.lic) is verified.* with a status code of 0.  Otherwise, it will indicate that it could not verify the file and return a status code of 1.
+Once a new keycode is entered after a feature is changed or hardware added, the unit verifies the 24-digit number.  This is done through an executable file residing internally named *cfsserver*.  This executable has a few different uses, but its main purpose to simply verify the number entered is correct.  If it is, then it will return a message along the lines of *The file (/nn/etc/xxxxxxx.lic) is verified.* with a status code of 0.  Otherwise, it will indicate that it could not verify the file and return a status code of 1.
 
 ### Want to help with this project?
 If you're interested in telephones and have some programming experience, please get in touch.  Any assistance would be appreciated!
