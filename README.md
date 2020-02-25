@@ -24,5 +24,5 @@ The keycode signature is required when making hardware or software changes to th
 For example, if you wanted to increase the number of extensions your unit provides from 8 to 12, you would need to make those changes within Element Manager but would also need to update the unit's keycode signature to reflect that change. 
 
 ### Want to help with this project?
-If you're interested in telephones and have some programming experience, please get in touch.  We'd welcome your help!
+If you're interested in telephones and have some programming experience, please get in touch.  Any assistance would be appreciated!
 
