@@ -20,17 +20,7 @@ It should be noted that cfsserver does have multiple duties to perform on the BC
 ### Command Line Options
 The method of verifying a keycode signature through the command line is accomplished as follows:
 
-cfsserver -verify /path_to_file (An example of a file follows)
-
-SystemId: AABBCCDDEEFF
-Sequence: 1
-KeyType: 2
-#' VM seat
-202 12
-#' Int Digital Sets
-117 12
-KeyCode:
-000000000000000000000000
+cfsserver -verify /path_to_file 
 
 The file is then parsed, analysed and a message will appear indicating if the file was verified or not, along with an exit status code of 0 or 1, respectively.
 
