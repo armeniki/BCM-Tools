@@ -24,7 +24,7 @@ This is a simple application which will present the user with all of the feature
 This application does not generate a keycode signature at the moment but it might come in useful nonetheless.
 
 
-## Keycode Signature
+## Keycode Signature Utility
 *This project is in progress and incomplete.*
 
 The keycode signature is a 24-digit number which is required when making hardware or software changes to the unit.  Usually these changes are made through Element Manager, its graphical user interface.
