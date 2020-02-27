@@ -7,7 +7,8 @@ As with all technology, the BCM is now obsolete and end-of-life.  Avaya has stop
 
 For telephone collectors or enthusiasts like myself who happen to have these units at home, there is, at the moment, very little ability to maintain them.  The parts for the BCM (such as hard drives and main boards) are not easily interchangeable because each unit is programmed with a unique "System ID".  Any change, whether it's hardware or software, must be authenticated with a new keycode signature.  Since there is no more support for these units, obtaining a keycode signature through Nortel or Avaya is now impossible.
 
-The purpose of this project is to help maintain and repair your unit by providing a couple of tools:
+The purpose of this project is to help maintain and repair your unit by providing some tools:
+
 
 ## Password of the Day
 The Password of the Day (POTD) comes in handy if you ever forget the password to your BCM.  The usual login process involves a username (typically "nnadmin") and a password.  Whilst there is a procedure which can be used to reset a system, it usually results in deleting all of its programming and resetting the unit to factory defaults which is not great.
@@ -15,8 +16,15 @@ The Password of the Day (POTD) comes in handy if you ever forget the password to
 The POTD was originally designed to allow support personnel to log in to these units using a temporary password to change the admin password to regain normal access.
 
 
+## Licence File Generator
+*This project is in progress and incomplete.*
 
-## Keycode Signature
+This is a simple application which will present the user with all of the features or options that can be modified on the BCM.  Once all of the desired options are selected, the user can then generate a .lic file which is then uploaded to the BCM via Element Manager.
+
+This application does not generate a keycode signature at the moment but it might come in useful nonetheless.
+
+
+## Keycode Signature Utility
 *This project is in progress and incomplete.*
 
 The keycode signature is a 24-digit number which is required when making hardware or software changes to the unit.  Usually these changes are made through Element Manager, its graphical user interface.
