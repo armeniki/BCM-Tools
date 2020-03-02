@@ -21,7 +21,7 @@ The POTD was originally designed to allow support personnel to log in to these u
 
 This is a simple application which will present the user with all of the features or options that can be modified on the BCM.  Once all of the desired options are selected, the user can then generate a .lic file which is then uploaded to the BCM via Element Manager.
 
-Please note that this application does not generate a keycode signature (for now) but it still might come in handy for some.
+
 
 
 ### Want to help with this project?
