@@ -10,7 +10,7 @@ For telephone collectors or enthusiasts like myself who happen to have these uni
 The purpose of this project is to help maintain and repair your unit by providing some tools.  Some are completed, some are in progress.
 
 
-## Password of the Day - completed
+## Password of the Day - completed & available
 The Password of the Day (POTD) comes in handy if you ever forget the password to your BCM.  The usual login process involves a username (typically "nnadmin") and a password.  Whilst there is a procedure which can be used to reset a system, it usually results in deleting all of its programming and resetting the unit to factory defaults which is not great.
 
 The POTD was originally designed to allow support personnel to log in to these units using a temporary password to change the admin password to regain normal access.
@@ -21,7 +21,7 @@ The POTD was originally designed to allow support personnel to log in to these u
 
 This is a simple application which will present the user with all of the features or options that can be modified on the BCM.  Once all of the desired options are selected, the user can then generate a .lic file which is then uploaded to the BCM via Element Manager.
 
-
+However, there are other ways of modifying available features and performing upgrades on the BCM.  This involves patching a particular file in various locations of its binary.  So I can not give too much priority to this particular project.
 
 
 ### Want to help with this project?
