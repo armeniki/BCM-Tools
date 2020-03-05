@@ -23,18 +23,18 @@ This is a simple application which will present the user with all of the feature
 
 However, there are other ways of modifying available features and performing upgrades on the BCM.  This involves patching a particular file in various locations of its binary.  So I can not give too much priority to this particular project.
 
-## Custom Date Formatting
-The BCM is a very powerful communications platform but unfortunately it is not very customisable in some ways
-  The built-in profiles come with preselected sets of language options depending on the profile selected.  
 
-I have had requests to customise a profile and have provided the necessary patching on this page.  I'll poat some more modification patches as people request them.
+## Custom Date Formatting
+The BCM is a very powerful communications platform but unfortunately, it is not very customisable in some ways.  The built-in profiles come with preselected language options.  These language options may or may not reflect what the user actually wants.
+
+I have had requests to customise the Canada profile and have provided the necessary patching info on this page.  I'll post some more modification patches if people request them.
 
 
 ## Custom Tones
 Similar to the above, these patches will allow for custom tones to be programmed.
 
 
-### Want to help with this project?
+### Want to help with these project?
 If you're interested in telephones and have some programming experience, please get in touch.  Any assistance would be appreciated!
 
 If you'd like to upload any files to assist with this project, please use the following Dropbox link.  You do not need to have a Dropbox account to use it, simply click on the "Choose Files" button.
