@@ -16,14 +16,6 @@ The Password of the Day (POTD) comes in handy if you ever forget the password to
 The POTD was originally designed to allow support personnel to log in to these units using a temporary password to change the admin password to regain normal access.
 
 
-## Licence File Generator - in progress
-*This project is in progress and incomplete.*
-
-This is a simple application which will present the user with all of the features or options that can be modified on the BCM.  Once all of the desired options are selected, the user can then generate a .lic file which is then uploaded to the BCM via Element Manager.
-
-However, there are other ways of modifying available features and performing upgrades on the BCM.  This involves patching a particular file in various locations of its binary.  So I can not give too much priority to this particular project.
-
-
 ## Custom Date Formatting
 The BCM is a very powerful communications platform but unfortunately, it is not very customisable in some ways.  The built-in profiles come with preselected language options.  These language options may or may not reflect what the user actually wants.
 
@@ -31,7 +23,7 @@ I have had requests to customise the Canada profile and have provided the necess
 
 
 ## Custom Tones
-Similar to the above, these patches will allow for custom tones to be programmed.
+Similar to the above, these patches will allow for custom tones to be programmed.  I am currently working on this project so please check back later.
 
 
 ### Want to help with these project?
